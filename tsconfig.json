@@ -1,12 +1,12 @@
 {
   "compilerOptions": {
-    "lib": ["DOM", "DOM.Iterable", "ESNext"], // Entende que estamos lidando com a DOM, adicionando tipagens que antes não exitiam
-    "allowJs": true, // Podemos ter tanto arquivos js quanto ts
-    "jsx": "react-jsx", // Informa que estamos usando jsx do React
-    "noEmit": true, // Não emitir o código quando executando o build
-    "strict": true, // Modo strict -> lidar com erros
+    "lib": ["DOM", "DOM.Iterable", "ESNext"], // Understand that we're dealing with the DOM, adding types that didn't exist before
+    "allowJs": true, // We can have both JS and TS files
+    "jsx": "react-jsx", // Informs that we are using React jsx
+    "noEmit": true, // Do not issue code when running the build
+    "strict": true, // Strict mode -> handle errors
     "moduleResolution": "node",
-    "resolveJsonModule": true, // Permite importar arquivos JSON
+    "resolveJsonModule": true, // Allows importing JSON files
     "isolatedModules": true,
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
@@ -14,5 +14,5 @@
     "forceConsistentCasingInFileNames": true
   },
 
-  "include": ["src"] // Onde o código vai estar
+  "include": ["src"] // Where the code will be
 }
